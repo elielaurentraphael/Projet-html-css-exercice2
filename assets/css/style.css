@@ -1,15 +1,129 @@
-.row {
-    display: flex;
+body {
+    border: 3px solid green;
+    width: 900px;
+    margin: 0 auto;
 }
 
-nav.row div img {
-    width: 10%;
+#deux,
+#trois,
+#quatre,
+#six,
+#huit,
+#dix,
+main>div.row {
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#row {
+    display: flex;
+    margin: 0;
+}
+
+#trois #row figure {
+    margin: 1em 1em;
+}
+
+.grid-container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 225px 150px 325px 200px;
+}
+
+.row {
+    display: flex;
+    width: 900px;
+}
+
+header div.row p {
+    width: 25%;
+}
+
+.grid-container div {
+    border: 2px solid red;
+    text-align: center;
+}
+
+.grid-container div img {
+    width: 60%;
 }
 
 .center {
     text-align: center;
 }
 
+#cinq {
+    display: flex;
+}
+
+.cinq {
+    display: flex;
+    width: 580px;
+}
+
+main>#quatre>#cinq>figure {
+    margin: 16px 8px;
+}
+
+main>h1 {
+    margin: 25px 160px;
+}
+
+#sept {
+    margin-left: 14px;
+}
+
+#neuf {
+    display: flex;
+    width: 650px;
+}
+
+#neuf div {
+    margin-left: 30px;
+}
+
+#dix .row div {
+    border: 2px solid red;
+}
+
+#dix .row .dix img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 135px;
+}
+
+#dix .row .dix p {
+    width: 300px;
+    margin-top: 0px;
+    margin-right: 0;
+    margin-bottom: 8px;
+    margin-left: 135px;
+}
+
+.dix {
+    width: 450px;
+}
+
+.onze {
+    width: 114px;
+}
+
+#onze {
+    width: 300px;
+    padding-left: 35px;
+}
+
+.onze p,
+.onze h2 {
+    margin-left: 17px;
+}
+
 footer div.row div img {
-    width: 20%;
+    width: 40%;
+}
+
+#un {
+    margin-top: -255px;
 }
