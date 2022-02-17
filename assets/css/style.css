@@ -10,11 +10,16 @@ body {
 #six,
 #huit,
 #dix,
+#douze,
 main>div.row {
     border: 2px solid blue;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#un {
+    margin-top: -255px;
 }
 
 #row {
@@ -124,6 +129,26 @@ footer div.row div img {
     width: 40%;
 }
 
-#un {
-    margin-top: -255px;
+#treize {
+    /*width: 340px;*/
+    display: flex;
+}
+
+#treize figure {
+    margin: 16px 20px;
+}
+
+#treize figure img {
+    width: 19px;
+    height: 19px;
+    width: 100%;
+}
+
+#douze .row div {
+    border: 2px solid red;
+}
+
+#douze p {
+    width: 450px;
+    margin-left: 135px;
 }
