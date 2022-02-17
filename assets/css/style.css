@@ -1,0 +1,15 @@
+.row {
+    display: flex;
+}
+
+nav.row div img {
+    width: 10%;
+}
+
+.center {
+    text-align: center;
+}
+
+footer div.row div img {
+    width: 20%;
+}
