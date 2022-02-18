@@ -109,6 +109,7 @@ header div.row p {
     height: 300px;
     text-align: center;
     background-color: #27242b;
+    padding-top: 30px;
 }
 
 #center figure {
@@ -133,7 +134,8 @@ header div.row p {
 .rowa {
     display: flex;
     width: 900px;
-    /*padding-bottom: 50px;*/
+    text-align: center;
+    padding: 0 100px;
 }
 
 #abc1 {
@@ -160,6 +162,62 @@ header div.row p {
     display: flex;
 }
 
+#one {
+    /*border: 2px solid blue;*/
+    width: 176px;
+    padding: 0 25px;
+}
+
+#two {
+    /*border: 2px solid blue;*/
+    padding: 60px 25px;
+}
+
+#three {
+    /*border: 2px solid blue;*/
+    padding: 0 25px;
+}
+
+#abc1>figure {
+    width: 28px;
+    height: 22px;
+    margin: 23px 5px;
+}
+
+#def1>figure {
+    width: 28px;
+    height: 22px;
+    margin: 23px 5px;
+}
+
+#ghi1>figure {
+    width: 28px;
+    height: 22px;
+    margin: 23px 5px;
+}
+
+#jkl1>figure {
+    width: 28px;
+    height: 22px;
+    margin: 23px 5px;
+}
+
+#mno1>figure {
+    width: 28px;
+    height: 22px;
+    margin: 23px 5px;
+}
+
+#pqr1>figure {
+    width: 28px;
+    height: 22px;
+    margin: 23px 5px;
+}
+
+#two>img {
+    /*width: 146px;*/
+}
+
 #buy {
     color: #fff;
     width: 100px;
@@ -173,7 +231,7 @@ header div.row p {
 #speco {
     height: 30px;
     font-size: 30px;
-    padding: 30px 158px;
+    padding: 30px 100px;
 }
 
 #speco,
@@ -245,6 +303,7 @@ main>h1 {
 #visit {
     color: #fff;
     width: 100px;
+    text-align: center;
     margin: auto;
     padding: 10px;
     border: 2px solid #3d9f96;
