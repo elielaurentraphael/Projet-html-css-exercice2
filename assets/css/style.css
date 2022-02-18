@@ -10,6 +10,12 @@ header {
     background-color: #27242b;
 }
 
+#abc2,
+#def2,
+#ghi2,
+#jkl2,
+#mno2,
+#pqr2,
 #rowb,
 #deux,
 #trois,
@@ -126,8 +132,32 @@ header div.row p {
 
 .rowa {
     display: flex;
-    /*width: 700px;
-    padding-bottom: 50px;*/
+    width: 900px;
+    /*padding-bottom: 50px;*/
+}
+
+#abc1 {
+    display: flex;
+}
+
+#def1 {
+    display: flex;
+}
+
+#ghi1 {
+    display: flex;
+}
+
+#jkl1 {
+    display: flex;
+}
+
+#mno1 {
+    display: flex;
+}
+
+#pqr1 {
+    display: flex;
 }
 
 #buy {
