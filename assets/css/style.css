@@ -1,5 +1,5 @@
 body {
-    border: 3px solid green;
+    /*border: 3px solid green;*/
     width: 900px;
     margin: 0 auto;
 }
@@ -10,6 +10,7 @@ header {
     background-color: #27242b;
 }
 
+#rowb,
 #deux,
 #trois,
 #quatre,
@@ -18,7 +19,7 @@ header {
 #dix,
 #douze,
 main>div.row {
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,6 +32,10 @@ main>div.row {
 #row {
     display: flex;
     margin: 0;
+}
+
+#trois {
+    padding: 30px 0 0px 0;
 }
 
 #trois #row figure {
@@ -48,12 +53,16 @@ main>div.row {
     width: 900px;
 }
 
+header>div>figure {
+    margin: 158px 275.5px 0 275.5px;
+}
+
 header div.row p {
     width: 25%;
 }
 
 .grid-container>div {
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     /*text-align: center;*/
 }
 
@@ -71,6 +80,7 @@ header div.row p {
 }
 
 #item2 {
+    text-decoration: underline;
     padding: 20px 20px 20px 71px;
 }
 
@@ -78,12 +88,18 @@ header div.row p {
     width: 60%;
 }
 
+#troisa {
+    /*border: 2px solid red;*/
+    background-color: #f7f7f7;
+}
+
 .center {
+    padding: 0 0 40px 0;
     text-align: center;
 }
 
 #center {
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
     height: 300px;
     text-align: center;
     background-color: #27242b;
@@ -97,9 +113,21 @@ header div.row p {
     color: #FFF;
 }
 
+.center h3,
 #center h3 {
+    /*border: 5px solid red;*/
     color: #3d9f96;
     margin: 30px;
+}
+
+#rowb {
+    padding-bottom: 70px;
+}
+
+.rowa {
+    display: flex;
+    /*width: 700px;
+    padding-bottom: 50px;*/
 }
 
 #buy {
@@ -152,6 +180,21 @@ main>h1 {
     margin-left: 14px;
 }
 
+#aene {
+    margin-bottom: 50px;
+}
+
+#see {
+    color: #fff;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #3d9f96;
+    border-radius: 20px;
+    background-color: #3d9f96;
+}
+
 #huit {
     padding: 0 0 20px 0;
 }
@@ -161,12 +204,30 @@ main>h1 {
     width: 650px;
 }
 
+#respons {
+    margin-bottom: 50px;
+}
+
+#donec {
+    margin-bottom: 50px;
+}
+
+#visit {
+    color: #fff;
+    width: 100px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #3d9f96;
+    border-radius: 20px;
+    background-color: #3d9f96;
+}
+
 #neuf div {
     margin-left: 30px;
 }
 
 #dix .row div {
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
 
 #dix .row .dix img {
@@ -226,7 +287,7 @@ footer div.row div img {
 }
 
 #douze .row div {
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
 
 #douze p {
