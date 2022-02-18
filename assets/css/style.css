@@ -4,6 +4,12 @@ body {
     margin: 0 auto;
 }
 
+header {
+    height: 750px;
+    color: #fff;
+    background-color: #27242b;
+}
+
 #deux,
 #trois,
 #quatre,
@@ -34,7 +40,7 @@ main>div.row {
 .grid-container {
     margin: auto;
     display: grid;
-    grid-template-columns: 225px 150px 325px 200px;
+    grid-template-columns: 200px 125px 300px 275px;
 }
 
 .row {
@@ -46,9 +52,26 @@ header div.row p {
     width: 25%;
 }
 
-.grid-container div {
+.grid-container>div {
     border: 2px solid red;
+    /*text-align: center;*/
+}
+
+.item {
+    padding: 20px 0;
+}
+
+.item {
+    text-align: right;
+}
+
+#item1 {
+    padding: 15px 0;
     text-align: center;
+}
+
+#item2 {
+    padding: 20px 20px 20px 71px;
 }
 
 .grid-container div img {
@@ -59,6 +82,51 @@ header div.row p {
     text-align: center;
 }
 
+#center {
+    border: 2px solid blue;
+    height: 300px;
+    text-align: center;
+    background-color: #27242b;
+}
+
+#center figure {
+    margin: 40px 0;
+}
+
+#center p {
+    color: #FFF;
+}
+
+#center h3 {
+    color: #3d9f96;
+    margin: 30px;
+}
+
+#buy {
+    color: #fff;
+    width: 100px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #3d9f96;
+    border-radius: 20px;
+    background-color: #3d9f96;
+}
+
+#speco {
+    height: 30px;
+    font-size: 30px;
+    padding: 30px 158px;
+}
+
+#speco,
+#quatre {
+    background-color: #f7f7f7;
+}
+
+#quatre {
+    padding: 0 0 80px 0;
+}
+
 #cinq {
     display: flex;
 }
@@ -66,6 +134,10 @@ header div.row p {
 .cinq {
     display: flex;
     width: 580px;
+}
+
+#six {
+    padding: 50px 0 35px 0;
 }
 
 main>#quatre>#cinq>figure {
@@ -78,6 +150,10 @@ main>h1 {
 
 #sept {
     margin-left: 14px;
+}
+
+#huit {
+    padding: 0 0 20px 0;
 }
 
 #neuf {
@@ -105,6 +181,11 @@ main>h1 {
     margin-right: 0;
     margin-bottom: 8px;
     margin-left: 135px;
+}
+
+#dix {
+    background-color: #f7f7f7;
+    padding: 20px 0 0 0;
 }
 
 .dix {
