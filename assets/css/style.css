@@ -1,5 +1,4 @@
 body {
-    /*border: 3px solid green;*/
     width: 900px;
     margin: 0 auto;
 }
@@ -25,7 +24,6 @@ header {
 #dix,
 #douze,
 main>div.row {
-    /*border: 2px solid blue;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,17 +65,15 @@ header div.row p {
     width: 25%;
 }
 
-.grid-container>div {
-    /*border: 2px solid red;*/
-    /*text-align: center;*/
-}
-
 .item {
     padding: 20px 0;
+    text-align: right;
 }
 
-.item {
-    text-align: right;
+#item1,
+.item a {
+    text-decoration: none;
+    color: #fff;
 }
 
 #item1 {
@@ -86,8 +82,14 @@ header div.row p {
 }
 
 #item2 {
-    text-decoration: underline;
+    /*color: #3d9f96;
+    text-decoration: underline;*/
     padding: 20px 20px 20px 71px;
+}
+
+#item2 a {
+    color: #3d9f96;
+    text-decoration: underline;
 }
 
 .grid-container div img {
@@ -95,17 +97,15 @@ header div.row p {
 }
 
 #troisa {
-    /*border: 2px solid red;*/
     background-color: #f7f7f7;
 }
 
 .center {
-    padding: 0 0 40px 0;
+    padding: 0 0 28px 0;
     text-align: center;
 }
 
 #center {
-    /*border: 2px solid blue;*/
     height: 300px;
     text-align: center;
     background-color: #27242b;
@@ -122,7 +122,6 @@ header div.row p {
 
 .center h3,
 #center h3 {
-    /*border: 5px solid red;*/
     color: #3d9f96;
     margin: 30px;
 }
@@ -163,18 +162,15 @@ header div.row p {
 }
 
 #one {
-    /*border: 2px solid blue;*/
     width: 176px;
     padding: 0 25px;
 }
 
 #two {
-    /*border: 2px solid blue;*/
-    padding: 60px 25px;
+    padding: 30px 25px 90px 25px;
 }
 
 #three {
-    /*border: 2px solid blue;*/
     padding: 0 25px;
 }
 
@@ -214,11 +210,11 @@ header div.row p {
     margin: 23px 5px;
 }
 
-#two>img {
-    /*width: 146px;*/
+.sed {
+    margin: 0;
 }
 
-#buy {
+#buy input {
     color: #fff;
     width: 100px;
     margin: auto;
@@ -272,7 +268,7 @@ main>h1 {
     margin-bottom: 50px;
 }
 
-#see {
+#see input {
     color: #fff;
     width: 100px;
     text-align: center;
@@ -300,7 +296,7 @@ main>h1 {
     margin-bottom: 50px;
 }
 
-#visit {
+#visit input {
     color: #fff;
     width: 100px;
     text-align: center;
@@ -313,10 +309,6 @@ main>h1 {
 
 #neuf div {
     margin-left: 30px;
-}
-
-#dix .row div {
-    /*border: 2px solid red;*/
 }
 
 #dix .row .dix img {
@@ -361,7 +353,6 @@ footer div.row div img {
 }
 
 #treize {
-    /*width: 340px;*/
     display: flex;
 }
 
@@ -373,10 +364,6 @@ footer div.row div img {
     width: 19px;
     height: 19px;
     width: 100%;
-}
-
-#douze .row div {
-    /*border: 2px solid red;*/
 }
 
 #douze p {
