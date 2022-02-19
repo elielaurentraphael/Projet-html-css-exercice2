@@ -82,8 +82,6 @@ header div.row p {
 }
 
 #item2 {
-    /*color: #3d9f96;
-    text-decoration: underline;*/
     padding: 20px 20px 20px 71px;
 }
 
@@ -124,6 +122,10 @@ header div.row p {
 #center h3 {
     color: #3d9f96;
     margin: 30px;
+}
+
+.center h3 {
+    margin-top: 10px;
 }
 
 #rowb {
@@ -224,6 +226,11 @@ header div.row p {
     background-color: #3d9f96;
 }
 
+#buy input:hover {
+    color: #000;
+    background-color: #fff;
+}
+
 #speco {
     height: 30px;
     font-size: 30px;
@@ -279,6 +286,11 @@ main>h1 {
     background-color: #3d9f96;
 }
 
+#see input:hover {
+    color: #000;
+    background-color: #fff;
+}
+
 #huit {
     padding: 0 0 20px 0;
 }
@@ -305,6 +317,11 @@ main>h1 {
     border: 2px solid #3d9f96;
     border-radius: 20px;
     background-color: #3d9f96;
+}
+
+#visit input:hover {
+    color: #000;
+    background-color: #fff;
 }
 
 #neuf div {
