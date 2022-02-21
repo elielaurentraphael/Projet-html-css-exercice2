@@ -9,12 +9,7 @@ header {
     background-color: #27242b;
 }
 
-#abc2,
-#def2,
-#ghi2,
-#jkl2,
-#mno2,
-#pqr2,
+.line,
 #rowb,
 #deux,
 #trois,
@@ -58,7 +53,11 @@ main>div.row {
 }
 
 header>div>figure {
-    margin: 158px 275.5px 0 275.5px;
+    text-align: center;
+}
+
+header>div>figure>img {
+    margin-top: 87px;
 }
 
 header div.row p {
@@ -128,88 +127,41 @@ header div.row p {
     margin-top: 10px;
 }
 
-#rowb {
-    padding-bottom: 70px;
+.col {
+    padding: 40px;
+}
+
+#quatorze {
+    margin-top: -200px;
 }
 
 .rowa {
     display: flex;
-    width: 900px;
+    /*width: 900px;*/
     text-align: center;
-    padding: 0 100px;
+    /*padding: 0 100px;*/
 }
 
-#abc1 {
+.disflex {
     display: flex;
 }
 
-#def1 {
-    display: flex;
-}
-
-#ghi1 {
-    display: flex;
-}
-
-#jkl1 {
-    display: flex;
-}
-
-#mno1 {
-    display: flex;
-}
-
-#pqr1 {
-    display: flex;
-}
-
-#one {
-    width: 176px;
-    padding: 0 25px;
-}
-
-#two {
-    padding: 30px 25px 90px 25px;
-}
-
-#three {
-    padding: 0 25px;
-}
-
-#abc1>figure {
+.disflex>figure {
     width: 28px;
     height: 22px;
     margin: 23px 5px;
 }
 
-#def1>figure {
-    width: 28px;
-    height: 22px;
-    margin: 23px 5px;
+#alpha {
+    border: 5px solid rgb(20, 190, 91);
 }
 
-#ghi1>figure {
-    width: 28px;
-    height: 22px;
-    margin: 23px 5px;
-}
-
-#jkl1>figure {
-    width: 28px;
-    height: 22px;
-    margin: 23px 5px;
-}
-
-#mno1>figure {
-    width: 28px;
-    height: 22px;
-    margin: 23px 5px;
-}
-
-#pqr1>figure {
-    width: 28px;
-    height: 22px;
-    margin: 23px 5px;
+#rowb {
+    /*border: 5px solid rgb(20, 23, 190);*/
+    width: 900px;
+    height: 492px;
+    margin: auto;
+    background-image: url("C:\Users\raphe\Projet-html-css-exercice2\assets\img\map_bg.png");
 }
 
 .sed {
@@ -234,7 +186,7 @@ header div.row p {
 #speco {
     height: 30px;
     font-size: 30px;
-    padding: 30px 100px;
+    padding: 30px 155px;
 }
 
 #speco,
@@ -248,6 +200,10 @@ header div.row p {
 
 #cinq {
     display: flex;
+}
+
+h3 {
+    margin: 13px 0 20px 0;
 }
 
 .cinq {
