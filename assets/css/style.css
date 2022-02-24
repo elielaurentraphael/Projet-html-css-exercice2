@@ -1,44 +1,25 @@
 body {
-    width: 900px;
+    width: 66vw;
     margin: 0 auto;
 }
 
 header {
-    height: 750px;
+    height: 55vw;
     color: #fff;
     background-color: #27242b;
 }
 
 .line,
-#rowb,
 #deux,
-#trois,
 #quatre,
 #six,
 #huit,
 #dix,
 #douze,
-main>div.row {
+main>div.roww {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-#un {
-    margin-top: -255px;
-}
-
-#row {
-    display: flex;
-    margin: 0;
-}
-
-#trois {
-    padding: 30px 0 0px 0;
-}
-
-#trois #row figure {
-    margin: 1em 1em;
 }
 
 .grid-container {
@@ -47,20 +28,22 @@ main>div.row {
     grid-template-columns: 200px 125px 300px 275px;
 }
 
-.row {
+.roww {
     display: flex;
     width: 900px;
 }
 
 header>div>figure {
+    margin: 0;
     text-align: center;
 }
 
 header>div>figure>img {
-    margin-top: 87px;
+    width: 34.41vw;
+    margin-top: 0.1vw;
 }
 
-header div.row p {
+header div.roww p {
     width: 25%;
 }
 
@@ -93,10 +76,6 @@ header div.row p {
     width: 60%;
 }
 
-#troisa {
-    background-color: #f7f7f7;
-}
-
 .center {
     padding: 0 0 28px 0;
     text-align: center;
@@ -117,6 +96,66 @@ header div.row p {
     color: #FFF;
 }
 
+#un {
+    border: 2px solid blue;
+    margin: auto;
+    width: 66vw;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.container {
+    /*border: 2px solid red;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.row {
+    padding: 30px 50px;
+}
+
+figure.col {
+    margin: 0;
+    padding: 0 10px;
+}
+
+#una {
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+
+main .center h1 {
+    padding-top: 70px;
+}
+
+.un {
+    text-align: left;
+}
+
+.deux {
+    text-align: right;
+}
+
+#coll {
+    padding: 0;
+}
+
+#one,
+#two {
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+#one {
+    top: 17px;
+}
+
+#two {
+    top: -180px;
+}
+
 .center h3,
 #center h3 {
     color: #3d9f96;
@@ -125,47 +164,6 @@ header div.row p {
 
 .center h3 {
     margin-top: 10px;
-}
-
-.col {
-    padding: 40px;
-}
-
-#quatorze {
-    margin-top: -200px;
-}
-
-.rowa {
-    display: flex;
-    /*width: 900px;*/
-    text-align: center;
-    /*padding: 0 100px;*/
-}
-
-.disflex {
-    display: flex;
-}
-
-.disflex>figure {
-    width: 28px;
-    height: 22px;
-    margin: 23px 5px;
-}
-
-#alpha {
-    border: 5px solid rgb(20, 190, 91);
-}
-
-#rowb {
-    /*border: 5px solid rgb(20, 23, 190);*/
-    width: 900px;
-    height: 492px;
-    margin: auto;
-    background-image: url("C:\Users\raphe\Projet-html-css-exercice2\assets\img\map_bg.png");
-}
-
-.sed {
-    margin: 0;
 }
 
 #buy input {
@@ -321,7 +319,7 @@ main>h1 {
     margin-left: 17px;
 }
 
-footer div.row div img {
+footer div.roww div img {
     width: 40%;
 }
 
