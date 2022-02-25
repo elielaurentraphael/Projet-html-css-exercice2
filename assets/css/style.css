@@ -1,36 +1,6 @@
-body {
-    width: 66vw;
-    margin: 0 auto;
-}
-
 header {
-    height: 55vw;
     color: #fff;
     background-color: #27242b;
-}
-
-.line,
-#deux,
-#quatre,
-#six,
-#huit,
-#dix,
-#douze,
-main>div.roww {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.grid-container {
-    margin: auto;
-    display: grid;
-    grid-template-columns: 200px 125px 300px 275px;
-}
-
-.roww {
-    display: flex;
-    width: 900px;
 }
 
 header>div>figure {
@@ -43,49 +13,31 @@ header>div>figure>img {
     margin-top: 0.1vw;
 }
 
-header div.roww p {
-    width: 25%;
+#sayna {
+    width: 70%;
 }
 
-.item {
-    padding: 20px 0;
-    text-align: right;
-}
-
-#item1,
-.item a {
-    text-decoration: none;
-    color: #fff;
-}
-
-#item1 {
-    padding: 15px 0;
+.centre {
     text-align: center;
 }
 
-#item2 {
-    padding: 20px 20px 20px 71px;
+header div.col-2 a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
-#item2 a {
+header div.col-4 a {
     color: #3d9f96;
-    text-decoration: underline;
-}
-
-.grid-container div img {
-    width: 60%;
 }
 
 .center {
-    padding: 0 0 28px 0;
     text-align: center;
 }
 
 #center {
-    height: 300px;
     text-align: center;
     background-color: #27242b;
-    padding-top: 30px;
+    padding-top: 15px;
 }
 
 #center figure {
@@ -97,22 +49,9 @@ header div.roww p {
 }
 
 #un {
-    border: 2px solid blue;
     margin: auto;
-    width: 66vw;
     background-color: #f7f7f7;
     text-align: center;
-}
-
-.container {
-    /*border: 2px solid red;*/
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.row {
-    padding: 30px 50px;
 }
 
 figure.col {
@@ -135,10 +74,6 @@ main .center h1 {
 
 .deux {
     text-align: right;
-}
-
-#coll {
-    padding: 0;
 }
 
 #one,
@@ -182,39 +117,16 @@ main .center h1 {
 }
 
 #speco {
-    height: 30px;
     font-size: 30px;
     padding: 30px 155px;
 }
 
-#speco,
-#quatre {
+#speco {
     background-color: #f7f7f7;
-}
-
-#quatre {
-    padding: 0 0 80px 0;
-}
-
-#cinq {
-    display: flex;
 }
 
 h3 {
     margin: 13px 0 20px 0;
-}
-
-.cinq {
-    display: flex;
-    width: 580px;
-}
-
-#six {
-    padding: 50px 0 35px 0;
-}
-
-main>#quatre>#cinq>figure {
-    margin: 16px 8px;
 }
 
 main>h1 {
@@ -245,15 +157,6 @@ main>h1 {
     background-color: #fff;
 }
 
-#huit {
-    padding: 0 0 20px 0;
-}
-
-#neuf {
-    display: flex;
-    width: 650px;
-}
-
 #respons {
     margin-bottom: 50px;
 }
@@ -264,7 +167,7 @@ main>h1 {
 
 #visit input {
     color: #fff;
-    width: 100px;
+    width: 120px;
     text-align: center;
     margin: auto;
     padding: 10px;
@@ -278,66 +181,6 @@ main>h1 {
     background-color: #fff;
 }
 
-#neuf div {
-    margin-left: 30px;
-}
-
-#dix .row .dix img {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left: 135px;
-}
-
-#dix .row .dix p {
-    width: 300px;
-    margin-top: 0px;
-    margin-right: 0;
-    margin-bottom: 8px;
-    margin-left: 135px;
-}
-
-#dix {
-    background-color: #f7f7f7;
-    padding: 20px 0 0 0;
-}
-
-.dix {
-    width: 450px;
-}
-
-.onze {
-    width: 114px;
-}
-
-#onze {
-    width: 300px;
-    padding-left: 35px;
-}
-
-.onze p,
-.onze h2 {
-    margin-left: 17px;
-}
-
-footer div.roww div img {
+footer .container .row .col img {
     width: 40%;
-}
-
-#treize {
-    display: flex;
-}
-
-#treize figure {
-    margin: 16px 20px;
-}
-
-#treize figure img {
-    width: 19px;
-    height: 19px;
-    width: 100%;
-}
-
-#douze p {
-    width: 450px;
-    margin-left: 135px;
 }
