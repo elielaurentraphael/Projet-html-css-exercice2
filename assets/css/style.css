@@ -1,43 +1,45 @@
-header {
-    color: #fff;
-    background-color: #27242b;
-}
-
-header>div>figure {
-    margin: 0;
-    text-align: center;
-}
-
-header>div>figure>img {
-    width: 34.41vw;
-    margin-top: 0.1vw;
+@import url('https://fonts.googleapis.com/css2? famille=Raleway:wght@100&display=swap');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Raleway:400,200,100,300,500,600,700,800,900');
+header div.col-2 a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 #sayna {
     width: 70%;
 }
 
-.centre {
-    text-align: center;
-}
-
-header div.col-2 a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
 header div.col-4 a {
     color: #3d9f96;
+}
+
+header>div>figure {
+    margin: 0;
+}
+
+#img600 {
+    width: 45vw;
+    margin-top: 0.1vw;
+}
+
+#conta {
+    padding: 30px 150px;
 }
 
 .center {
     text-align: center;
 }
 
+header .center h1 {
+    margin: 0;
+    padding: 80px 0 20px;
+}
+
 #center {
     text-align: center;
     background-color: #27242b;
     padding-top: 15px;
+    margin-top: 60px;
 }
 
 #center figure {
@@ -48,20 +50,13 @@ header div.col-4 a {
     color: #FFF;
 }
 
-#un {
-    margin: auto;
-    background-color: #f7f7f7;
-    text-align: center;
+#center h3 {
+    padding-bottom: 60px;
 }
 
 figure.col {
     margin: 0;
     padding: 0 10px;
-}
-
-#una {
-    padding-top: 10px;
-    padding-bottom: 70px;
 }
 
 main .center h1 {
@@ -101,6 +96,11 @@ main .center h1 {
     margin-top: 10px;
 }
 
+#buy {
+    margin: 0;
+    padding: 10px 0 60px;
+}
+
 #buy input {
     color: #fff;
     width: 100px;
@@ -114,11 +114,6 @@ main .center h1 {
 #buy input:hover {
     color: #000;
     background-color: #fff;
-}
-
-#speco {
-    font-size: 30px;
-    padding: 30px 155px;
 }
 
 #speco {
