@@ -1,107 +1,78 @@
+@import url('https://fonts.googleapis.com/css2? famille=Raleway:wght@100&display=swap');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Raleway:400,200,100,300,500,600,700,800,900');
+:root {
+    --color-one: #ffffff;
+    --color-two: #27242b;
+    --color-three: #3d9f96;
+    --color-four: #322f36;
+    --color-five: #eeeeee;
+    --color-six: #f9f9f9;
+    --color-seven: #ababab;
+    --color-eight: #7e7e7e;
+}
+
 body {
-    width: 65vw;
-    margin: 0 auto;
-    font-size: 0.7em;
-    text-align: center;
+    font-family: 'Raleway', 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 0.87rem;
 }
 
-body>header>nav.container.bg-dark.nav.justify-content-end.text-center>a {
-    padding: 26px 16px;
-    color: #fff;
+header {
+    border-bottom: 1px solid rgb(255, 255, 255, 0.08);
 }
 
-body>header>nav.container.bg-dark.nav.justify-content-end.align-items-center.text-center>a#sayn.nav-link.col-4 {
-    padding: 20px o;
+.fond {
+    background-color: var(--color-two);
 }
 
-#sayna {
-    width: 60%;
+.couleur {
+    color: var(--color-three);
 }
 
-#get {
-    text-decoration: underline;
-    color: #3d9f96;
-}
-
-main>div.text-center.bg-dark.text-white>figure>img {
-    margin: 0;
-    padding-top: 3rem;
-}
-
-h6 {
-    margin: 0;
-    padding: 2rem 0;
-    color: #3d9f96;
-}
-
-main>div.col.bg-light.text-start {
-    font-size: 1.5rem;
-}
-
-#buy input {
-    color: #fff;
-    width: 100px;
-    margin: 1rem 0 4rem;
-    padding: 10px;
-    border: 2px solid #3d9f96;
-    border-radius: 20px;
-    background-color: #3d9f96;
-}
-
-#img600 {
-    width: 70%;
-}
-
-main>div.container.bg-dark.text-center>figure {
-    margin: 0;
-}
-
-main>div.container.bg-light>div.row.pt-5.pb-3.text-center>figure {
-    margin: 0;
-    padding: 0;
-}
-
-main>div.container.bg-light>div.row.pt-5.pb-3.text-center {
-    padding-left: 9rem;
-    padding-right: 9rem;
-}
-
-@media (max-width: 575.98px) {
-    main>div.container.bg-light>div.row.pt-5.pb-3.text-center {
-        flex-direction: column;
+@media screen and (max-width: 767.9px) {
+    body {
+        font-size: 0.77rem;
+    }
+    .promo {
+        font-size: 1.3rem;
+        font-weight: normal;
     }
 }
 
-main>div.container.text-center.bg-light>h6 {
-    padding: 0.5rem 0 4rem;
+.bouton {
+    color: var(--color-one);
+    opacity: 0.85;
+    width: 190px;
+    margin: 1.5rem 0 5rem;
+    padding: 15px;
+    border: 2px solid var(--color-three);
+    border-radius: 35px;
+    background-color: var(--color-three);
 }
 
-@media (max-width: 575.98px) {
-    main>div.container.pt-5>div.row.justify-content-center {
-        flex-direction: column;
-    }
+.fond1 {
+    background-color: var(--color-five);
 }
 
-#see input {
-    color: #fff;
-    width: 100px;
-    margin: 1rem 0 4rem;
-    padding: 10px;
-    border: 2px solid #3d9f96;
-    border-radius: 20px;
-    background-color: #3d9f96;
+#awesome {
+    background-color: lightyellow;
+    background-image: url("/assets/img/map_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#visit input {
-    color: #fff;
-    width: 100px;
-    margin: 1rem 0 4rem;
-    padding: 10px;
-    border: 2px solid #3d9f96;
-    border-radius: 20px;
-    background-color: #3d9f96;
+#absi {
+    top: 37%;
+    left: 2%;
 }
 
-footer>div.container.pt-5>div.row>div.col>img {
-    width: 40%;
+.fosi {
+    font-size: 0.77rem;
+}
+
+.fosa {
+    font-size: 1.4vw;
+}
+
+.foso {
+    font-size: 1.3vw;
 }
